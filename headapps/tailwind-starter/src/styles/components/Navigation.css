@@ -1,0 +1,189 @@
+.component.navigation {
+
+  /* navigation-main */
+  &.navigation-main {
+    .menu-mobile-navigate {
+      display: none;
+    }
+
+    /* Vertical */
+    &.navigation-main-vertical {
+      /* Mobile */
+
+      /* with Home */
+      .level0.rel-level1 {
+        @apply flex mx-3;
+      }
+
+      .level1.rel-level2 {
+        @apply float-left mx-3;
+      }
+
+      .level1.rel-level2 ul {
+        @apply hidden;
+      }
+
+      .level1.rel-level2 ul li {
+        @apply m-3;
+      }
+
+      .level1.rel-level2:hover>ul {
+        @apply block z-10 absolute shadow-md min-w-[200px] bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+      }
+
+      /* no Home */
+      .level1.rel-level1 {
+        @apply float-left mx-3;
+      }
+
+      .level1.rel-level1 ul {
+        @apply hidden;
+      }
+
+      .level1.rel-level1 ul li {
+        @apply m-3;
+      }
+
+      .level1.rel-level1:hover>ul {
+        @apply block z-10 absolute shadow-md min-w-[200px] bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+      }
+    }
+
+    /* Horizontal */
+    &.navigation-main-horizontal {
+
+      /* with Home */
+      .level0.rel-level1 {
+        @apply flex mx-3;
+      }
+
+      .level1.rel-level2 {
+        @apply float-left mx-3;
+      }
+
+      .level1.rel-level2 ul {
+        @apply hidden;
+      }
+
+      .level1.rel-level2 ul li {
+        @apply m-3;
+      }
+
+      .level1.rel-level2:hover>ul {
+        @apply flex z-10 absolute left-0 shadow-md w-screen bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+      }
+
+      /* no Home */
+      .level1.rel-level1 {
+        @apply float-left mx-3;
+      }
+
+      .level1.rel-level1 ul {
+        @apply hidden;
+      }
+
+      .level1.rel-level1 ul li {
+        @apply m-3;
+      }
+
+      .level1.rel-level1:hover>ul {
+        @apply flex z-10 absolute left-0 shadow-md w-screen bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+      }
+    }
+  }
+
+  &.navigation-fat {
+
+    /* Mobile */
+    .menu-mobile-navigate {
+      display: none;
+    }
+
+    .navigation-title {
+      @apply mx-3;
+    }
+
+    /* with Home */
+    .level0.rel-level1 {
+      @apply flex font-semibold;
+    }
+
+    .level1.rel-level2 {
+      @apply float-left;
+    }
+
+    .level1.rel-level2 ul {
+      @apply flex flex-col font-normal;
+    }
+
+    .level1.rel-level2 ul li {
+      @apply list-disc ml-5;
+    }
+
+    /* no Home */
+    .component-content ul {
+      @apply flex font-semibold;
+    }
+
+    .level1.rel-level1 ul {
+      @apply flex flex-col font-normal;
+    }
+
+    .level1.rel-level1 ul li {
+      @apply list-disc ml-5;
+    }
+  }
+
+  &.navigation-mobile {
+    @apply bg-white dark:bg-background-dark;
+
+    .menu-mobile-navigate {
+      display: none;
+    }
+
+    .menu-mobile-navigate~.component-content {
+      @apply hidden;
+    }
+
+    .menu-mobile-navigate:checked~.component-content {
+      @apply block bg-white dark:bg-background-dark;
+    }
+
+    .component-content {
+      @apply p-3 z-10 absolute left-0 shadow-md w-screen;
+    }
+
+    .level1.rel-level2 ul li {
+      @apply list-disc ml-5;
+    }
+
+    .level1.rel-level1 ul li {
+      @apply list-disc ml-5;
+    }
+
+    .menu-mobile-navigate+.menu-humburger {
+      @apply relative cursor-pointer flex flex-col justify-center items-center;
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .menu-mobile-navigate+.menu-humburger::before,
+    .menu-mobile-navigate+.menu-humburger::after,
+    .menu-mobile-navigate+.menu-humburger div {
+      @apply bg-background-dark border dark:bg-white block w-full h-0.5 my-0.5;
+      content: '';
+    }
+
+    .menu-mobile-navigate:checked+.menu-humburger::before {
+      @apply transform rotate-45 translate-y-1;
+    }
+
+    .menu-mobile-navigate:checked+.menu-humburger::after {
+      @apply transform -rotate-45 -translate-y-1;
+    }
+
+    .menu-mobile-navigate:checked+.menu-humburger div {
+      @apply hidden;
+    }
+  }
+}

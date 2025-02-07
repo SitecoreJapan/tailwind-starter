@@ -1,0 +1,88 @@
+﻿---
+ID: "2d38c5fd-7341-4aba-b0b8-c67ed09f238d"
+Parent: "30097e76-d873-4440-9c04-e89e37e10313"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/starter/tailwind-basic/Home/about/Data/Content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T071302Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>XM Cloud's Useful Features and Starter Kit Appeal</h2>
+        <h3>Headless CMS Flexibility</h3>
+        <p>As a headless CMS, XM Cloud offers maximum front-end flexibility, with an API-based architecture that enables consistent content delivery across all channels, including web, mobile, and apps. </p>
+        <p>Developers can choose the framework of their choice for highly scalable, modern development. </p>
+        <h3>Next.js &times; Tailwind CSS Starter Kit</h3>
+        <p>This starter kit provides sample sites utilizing Next.js and Tailwind CSS to facilitate development. </p>
+        <ul>
+        <li>High-performance SSR &amp; SSG support with Next.js</li>
+        <li>Streamline styling with Tailwind CSS to quickly implement sophisticated designs</li>
+        <li>Integration with XM Cloud for flexible content management</li>
+        </ul>
+        <p>With this starter kit, you can start developing immediately with no setup required! </p>
+        <p>Experience the speed and freedom of website creation with the latest technology. </p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7e200e4-512c-4820-b37f-17c2e8dabe2a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T143646Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T143403Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>XM Cloud の便利な機能とスターターキットの魅力</h2>
+        <h3>ヘッドレス CMS の柔軟性</h3>
+        <p>XM Cloud は ヘッドレス CMS として、フロントエンドの自由度を最大限に引き出します。API ベースのアーキテクチャにより、Web・モバイル・アプリ など、あらゆるチャネルで一貫したコンテンツ配信が可能。</p>
+        <p>開発者は 好きなフレームワーク を選択でき、拡張性の高いモダンな開発を実現します。</p>
+        <h3>Next.js &times; Tailwind CSS のスターターキット</h3>
+        <p>本スターターキットは、Next.js と Tailwind CSS を活用したサンプルサイトを提供し、開発をよりスムーズに進められます。</p>
+        <ul>
+            <li>Next.js による高パフォーマンスな SSR &amp; SSG 対応</li>
+            <li>Tailwind CSS でスタイリングを効率化し、洗練されたデザインをすぐに実装</li>
+            <li>XM Cloud との統合 で、コンテンツを柔軟に管理</li>
+        </ul>
+        <p>このスターターキットを使えば、セットアップ不要で即開発開始！</p>
+        <p>最新の技術で、スピーディーかつ自由な Web サイト制作を体験してください。 </p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00b74058-5d26-4f25-acc4-0f0658e67987"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T143559Z

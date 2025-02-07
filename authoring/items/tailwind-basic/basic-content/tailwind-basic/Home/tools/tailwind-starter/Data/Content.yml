@@ -1,0 +1,89 @@
+﻿---
+ID: "9f26f08e-2f85-4af8-9204-b0c563fe1d57"
+Parent: "2122f2eb-e3e0-4ee0-b1fe-ff92e140e195"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/starter/tailwind-basic/Home/tools/tailwind-starter/Data/Content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T071252Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h3>Next.js x Tailwind CSS x XM Cloud Starter Kit</h3>
+        
+        <p>The best development experience, the fastest. </p>
+        <p>This starter kit maximizes the powerful features of XM Cloud with the modern development stack of Next.js and Tailwind CSS. Combine development speed and performance to quickly build sophisticated UIs while taking advantage of the flexibility of a headless CMS. </p>
+        <ul>
+        <li>Optimized performance and SEO with Next.js</li>
+        <li>Efficient and customizable design with Tailwind CSS</li>
+        <li>Seamless integration with XM Cloud for enhanced content management</li>
+        <li>No development environment setup required! Build and deploy instantly in the cloud</li>
+        </ul>
+        <p>Faster and freer Sitecore development with this starter kit. </p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ca7956e-3f5d-45ed-8656-ced0db585839"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T143220Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T072459Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h3>Next.js × Tailwind CSS × XM Cloud スターターキット</h3>
+        
+        <p>最高の開発体験を、最速で。</p>
+        <p>
+        XM Cloud のパワフルな機能を Next.js と Tailwind CSS のモダンな開発スタックで最大限に活用できるスターターキット。
+        開発スピードとパフォーマンスを両立し、ヘッドレス CMS の柔軟性を活かしながら、洗練された UI を素早く構築可能。</p>
+        <ul>
+        <li>Next.js で最適化されたパフォーマンスと SEO を実現</li>
+        <li>Tailwind CSS による効率的でカスタマイズ自在なデザイン</li>
+        <li>XM Cloud とのシームレスな統合でコンテンツ管理を強化</li>
+        <li>開発環境セットアップ不要！ クラウド上ですぐに構築・デプロイ</li>
+        </ul>
+        <p>これからの Sitecore 開発 は、このスターターキットで もっと速く、もっと自由に。 </p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3401c75-fc9d-4a23-a25a-c9758592a0ae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T143057Z

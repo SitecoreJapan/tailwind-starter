@@ -1,0 +1,45 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "tailwind-collection",
+  "references": ["tailwind-starter"],
+  "items": {
+    "path": "tailwind-collection",
+    "includes": [
+      {
+        "name": "template",
+        "path": "/sitecore/templates/Project/starter",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/starter",
+        "rules": [
+          {
+            "path": "/shared",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "rendering",
+        "path": "/sitecore/layout/Renderings/Project/starter",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "system",
+        "path": "/sitecore/system/Settings/Project/starter",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/starter",
+        "scope": "SingleItem"
+      }
+    ]
+  }
+}

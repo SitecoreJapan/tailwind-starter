@@ -1,0 +1,13 @@
+.component.link-list {
+    ul {
+        @apply list-disc pt-2 pl-3 pb-2;
+    }
+
+    ol {
+        @apply list-decimal pt-2 pl-3 pb-2;
+    }
+
+    li {
+        @apply ml-4;
+    }
+}

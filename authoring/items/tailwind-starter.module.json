@@ -1,0 +1,210 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "tailwind-starter",
+  "items": {
+    "path": "tailwind-starter",
+    "includes": [
+      {
+        "name": "tw-renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Tailwind Starter",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tw-templates",
+        "path": "/sitecore/templates/Feature/Tailwind Starter",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tw-branches",
+        "path": "/sitecore/templates/Branches/Feature/Tailwind Starter",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "tw-system",
+        "path": "/sitecore/system/Settings/Feature/Tailwind Starter",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sc-TailwindGrid-display-Extra-Small",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Extra Small/Display",
+        "rules": [
+          {
+            "path": "/Flex-row",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Flex-col",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "sc-TailwindGrid-display-Small",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Small/Display",
+        "rules": [
+          {
+            "path": "/Flex-row",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Flex-col",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "sc-TailwindGrid-display-Medium",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Medium/Display",
+        "rules": [
+          {
+            "path": "/Flex-row",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Flex-col",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "sc-TailwindGrid-display-Large",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Large/Display",
+        "rules": [
+          {
+            "path": "/Flex-row",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Flex-col",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "sc-TailwindGrid-display-Extra-Large",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Extra Large/Display",
+        "rules": [
+          {
+            "path": "/Flex-row",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Flex-col",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "sc-TailwindGrid-display-Extra-Extra-Large",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Extra Extra Large/Display",
+        "rules": [
+          {
+            "path": "/Flex-row",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Flex-col",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "sc-TailwindGrid-Vertical-Extra-Small",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Extra Small/Vertical Alignment",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "sc-TailwindGrid-Vertical-Small",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Small/Vertical Alignment",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "sc-TailwindGrid-Vertical-Medium",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Medium/Vertical Alignment",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "sc-TailwindGrid-Vertical-Large",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Large/Vertical Alignment",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "sc-TailwindGrid-Vertical-Extra-Large",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Extra Large/Vertical Alignment",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "sc-TailwindGrid-Vertical-Extra-Extra-Large",
+        "path": "/sitecore/system/Settings/Feature/Experience Accelerator/GridTailwind/Tailwind Grid Definition/Extra Extra Large/Vertical Alignment",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "sc-Promo-DisplayName",
+        "path": "/sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoIcon",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "sc-Standard-Workflow",
+        "path": "/sitecore/system/Workflows/Standard Workflow",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "sc-Languages",
+        "path": "/sitecore/system/Languages",
+        "rules": [
+          {
+            "path": "/ja-JP",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "sc-core-Languages",
+        "path": "/sitecore/system/Languages/ja-JP",
+        "scope": "singleItem",
+        "database": "core"
+      }
+    ]
+  }
+}

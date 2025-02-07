@@ -1,0 +1,77 @@
+﻿---
+ID: "3b61447d-2930-424b-8caa-e2c5a45dac77"
+Parent: "20a32cb9-ebae-4399-aaf8-c10316bcbd4f"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/starter/tailwind-basic/Home/tools/language-switcher/Data/Content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T071237Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h3>Language Switching Tool</h3>
+        <p>
+        Our language switching tool provides a convenient feature that allows users to easily select their preferred language. It currently supports Danish, French, German, and Japanese, enabling smooth language switching with just one click.
+        </p>
+        <h3>Main Features:</h3>
+        <ul>
+        <li>Intuitive UI – Simple and easy-to-use design</li>
+        <li>Instant Switching – Change languages without reloading the page</li>
+        <li>Multilingual Support – Supports four languages, with plans for future expansion</li>
+        </ul>
+        <p>
+        By utilizing this tool, you can provide a more comfortable browsing experience for a wider audience. Give it a try!</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a0c76f9-4be5-4da3-8194-a0d1e2fea30d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T072906Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T072519Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h3>多言語対応の言語切替ツール</h3><p>言語スイッチャーは、ユーザーが簡単に好みの言語を選択できる便利な機能を提供します。現在、デンマーク語・フランス語・ドイツ語・日本語 に対応しており、ワンクリックでスムーズに言語を切り替えることができます。</p><h3>主な特徴:</h3><ul><li>直感的なUI – シンプルで使いやすいデザイン</li><li>即時切替 – ページをリロードせずに言語変更が可能</li><li>多言語対応 – 4カ国語に対応</li></ul><p>このツールを活用することで、より多くのユーザーに快適な閲覧体験を提供できます。ぜひお試しください！</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bb99c618-4952-47ca-8d77-feb1a6a6d343"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T072947Z

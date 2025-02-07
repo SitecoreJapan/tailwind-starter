@@ -1,0 +1,20 @@
+.container-dark-background {
+  @apply bg-gray-800 text-white;
+}
+
+.container-color-background {
+  @apply bg-blue-400 text-gray-800;
+}
+
+.container-gray-background {
+  @apply bg-gray-300 text-gray-800;
+}
+
+.container-clean-background {
+  @apply bg-white text-gray-800;
+}
+
+.container-default.footer {
+  @apply p-10;
+}
+

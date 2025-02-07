@@ -1,0 +1,44 @@
+﻿---
+ID: "4f8eee24-bbbb-41e7-9a59-baba4b50ebca"
+Parent: "d46e1d40-651e-45d6-9c4d-a88901b82963"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/Tailwind Starter/Available  Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {2217CAEB-153F-4BF5-AC9B-F8509CB9B2FB}
+    {6A79485D-A10F-4AEE-B2F0-CD844CABEF25}
+    {D4691AD0-C464-4E4C-AED4-870FB1D7EA5C}
+    {5155065F-8459-4090-BE25-CE5204AACAC2}
+    {9E68B44A-7812-41B2-A65E-B81D0A6EFBE9}
+    {58270441-099B-4E32-B8ED-0A4EBD8C27E5}
+    {AFCB6246-8ABE-4461-A4ED-BFF794285018}
+    {523CD37A-FE5C-4583-BB99-AC1C3A7C0A66}
+    {E6A46AE5-8339-4ACF-8DA4-5FEB20C35CA4}
+    {A9CF1EA0-EB49-4681-B855-1CE292529F6F}
+    {50C18E64-705C-44D7-9A24-69AC4DD4D9CA}
+    {A8604A7C-E8EB-41DC-99B0-C38BDFC62E17}
+    {36DE1E6B-EC6E-4DC5-B99E-3B5D777AECF7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69570e4e-87b9-456d-bea8-71ea49bf63e4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T042244Z

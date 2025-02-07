@@ -1,0 +1,17 @@
+.component.promo {
+  @apply p-8;
+
+  .field-promoicon img {
+    @apply h-72 object-cover object-center mb-5;
+  }
+  .field-promotext {
+    @apply my-5;
+  }
+  .field-promolink {
+    @apply text-right mr-5;
+  }
+  .field-promolink a {
+    @apply inline-block bg-blue-500 text-white py-2 px-4 rounded;
+  }
+}
+

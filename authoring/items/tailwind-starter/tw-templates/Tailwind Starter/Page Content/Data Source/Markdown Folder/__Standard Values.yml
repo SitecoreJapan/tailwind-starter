@@ -1,0 +1,37 @@
+﻿---
+ID: "c430d821-f459-49c6-8b66-c5de1af5f9aa"
+Parent: "88e8e22c-2436-4db5-98bd-65f6c2edcac3"
+Template: "88e8e22c-2436-4db5-98bd-65f6c2edcac3"
+Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Markdown Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {6A7D5BE4-5F7E-4EEF-9E25-5D4E5BB9BE3E}
+    {88E8E22C-2436-4DB5-98BD-65F6C2EDCAC3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T044848Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1ecce3d-7a8e-4d5d-88bf-2a0aa8bbc6c7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T044910Z

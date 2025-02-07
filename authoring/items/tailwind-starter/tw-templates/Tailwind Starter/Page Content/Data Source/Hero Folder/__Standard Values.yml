@@ -1,0 +1,37 @@
+﻿---
+ID: "fa5d9fc9-fec7-45d0-8d06-e7354d513df6"
+Parent: "fad84b43-ef47-4fe9-949d-79a41ba54155"
+Template: "fad84b43-ef47-4fe9-949d-79a41ba54155"
+Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Hero Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {AB4A6F08-5ED9-4908-B259-53A6CD2C635B}
+    {FAD84B43-EF47-4FE9-949D-79A41BA54155}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T044732Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7c91371-1db2-4d50-b65a-429a2a4b95f6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250206T044752Z

@@ -1,0 +1,19 @@
+.highlighted-left {
+    @apply border-l-4;
+    @apply border-blue-500;
+}
+
+.highlighted-right {
+    @apply border-r-4;
+    @apply border-blue-500;
+}
+
+.highlighted-top {
+    @apply border-t-4;
+    @apply border-blue-500;
+}
+
+.highlighted-bottom {
+    @apply border-b-4;
+    @apply border-blue-500;
+}

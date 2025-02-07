@@ -1,0 +1,8 @@
+.content.breadcrumb {
+    @apply m-4 text-gray-800 dark:text-gray-200;
+
+    li:not(:last-child)::after {
+        content: '>';
+        @apply text-gray-400 mx-2;
+    }
+}
