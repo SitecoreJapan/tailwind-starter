@@ -28,7 +28,7 @@ SharedFields:
       item(path: $contextItem, language: $language) {
         ancestors(
           hasLayout: true
-          includeTemplateIDs: "9B08DD4C-C5C6-4F1F-92C4-968CE9239BC5,A25F725D-9FF0-4EBB-9CE4-7AD92CFDBCB9"
+          includeTemplateIDs: "9B08DD4C-C5C6-4F1F-92C4-968CE9239BC5,A25F725D-9FF0-4EBB-9CE4-7AD92CFDBCB9,F5D9AE9C-A8A8-452F-9653-680ADB855B65,2A8C794E-16C9-467C-AF43-6B8F93A3F8ED"
         ) {
           ...breadcrumbFields
         }
@@ -55,14 +55,14 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b3cde539-11c5-44cb-a990-f2f24b99c8e0"
+      Value: "4f5d9186-11ff-4bb9-9055-c56c6f712a2c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T062042Z
+      Value: 20250207T022001Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

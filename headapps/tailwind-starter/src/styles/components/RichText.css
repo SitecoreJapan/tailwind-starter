@@ -1,5 +1,6 @@
 .component.rich-text,
-.component.content {
+.component.content,
+.component.markdown {
   h1 {
     @apply text-4xl;
   }
@@ -25,11 +26,10 @@
   }
 
   &.article {
-    @apply p-10;
+    @apply p-5;
 
     p {
       @apply py-2;
     }
   }
 }
-
