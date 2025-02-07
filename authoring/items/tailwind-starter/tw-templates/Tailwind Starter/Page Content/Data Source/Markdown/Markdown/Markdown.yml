@@ -7,6 +7,9 @@ SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Multi-Line Text"
+- ID: "b118496a-0f78-4a27-b55f-0a6c4b0b0fe1"
+  Hint: Default value
+  Value: Markdown Component
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -28,11 +31,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1328d723-f9b0-468c-ac76-a78c20a515e3"
+      Value: "4c551ed7-0acd-48ea-b4a5-022467771797"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250207T055942Z
+      Value: 20250207T074910Z
