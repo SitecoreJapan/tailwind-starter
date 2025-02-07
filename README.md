@@ -29,6 +29,8 @@ For developers new to XM Cloud you can follow the Getting Started Guide on the [
   ```
 - You should now be able to access your site on `http://localhost:3000` and see your changes in real-time as you make them.
 
+If you want to use sample site, please use serialized data.
+
 ### SPA Starters Monorepo and Angular SPA
 
 A new starter SPA based on Angular has been introduced with JSS v22.3.0. The Angular starter has been designed to be compatible with XM Cloud and should be used with the provided node XM Cloud proxy application to handle server-side rendering (SSR), data queries, personalization and more. For more details and information on how to run and deploy the Angular starter and proxy to XM Cloud have a look at [SPA starters monorepo](headapps/spa-starters/)
