@@ -3,6 +3,10 @@ ID: "d46e1d40-651e-45d6-9c4d-a88901b82963"
 Parent: "55298ffb-9e03-40ef-a63a-6e4ea0244143"
 Template: "35e75c72-4985-4e09-88c3-0eac6cd1e64f"
 Path: /sitecore/templates/Branches/Feature/Tailwind Starter/Available  Renderings
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: da
   Fields:
@@ -75,14 +79,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8755ed64-c52e-4842-a9c2-f8f4da089196"
+      Value: "7278ee88-5639-49f4-be59-bdd984b739ed"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T035728Z
+      Value: 20250209T054911Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

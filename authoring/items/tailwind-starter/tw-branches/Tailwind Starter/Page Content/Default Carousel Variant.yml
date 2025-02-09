@@ -1,14 +1,8 @@
 ﻿---
-ID: "980fa701-43bf-43a2-ac11-0be351a23d14"
-Parent: "84f84200-ee11-4187-a837-f69643930741"
-Template: "84f84200-ee11-4187-a837-f69643930741"
-Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Carousel Folder/__Standard Values
-SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: |
-    {331F2BB8-5322-4C24-AF38-9C6AEDFA97A5}
-    {84F84200-EE11-4187-A837-F69643930741}
+ID: "55f61bf2-479e-4efe-808f-9a0fb066fab2"
+Parent: "4c3230c1-1c8b-48f1-bcad-9430bec5e107"
+Template: "35e75c72-4985-4e09-88c3-0eac6cd1e64f"
+Path: /sitecore/templates/Branches/Feature/Tailwind Starter/Page Content/Default Carousel Variant
 Languages:
 - Language: en
   Versions:
@@ -16,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250206T044628Z
+      Value: 20250206T041707Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,11 +21,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "86c84bde-9154-40ae-b604-3111f7a416bf"
+      Value: "f437c4fa-b9f4-42f0-bb29-13ba8909665a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250209T055344Z
+      Value: 20250206T041707Z

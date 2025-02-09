@@ -1,0 +1,23 @@
+﻿---
+ID: "5f743402-222c-473e-922b-1a9c68d9515a"
+Parent: "331f2bb8-5322-4c24-af38-9c6aedfa97a5"
+Template: "d46369ca-0243-49ab-b0e4-7c436b9a45c8"
+Path: /sitecore/templates/Branches/Feature/Tailwind Starter/Page Content/Carousel/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250209T055152Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "067f8d9b-549a-4f96-823b-781a533c89e8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250209T055152Z
