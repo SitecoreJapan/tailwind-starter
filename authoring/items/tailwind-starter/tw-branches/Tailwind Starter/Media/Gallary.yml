@@ -1,12 +1,12 @@
 ﻿---
-ID: "44a8cc56-a544-44fa-8ea4-447255ea44d9"
-Parent: "626bf540-9efa-44cc-8d20-1a5c82802805"
-Template: "626bf540-9efa-44cc-8d20-1a5c82802805"
-Path: /sitecore/templates/Feature/Tailwind Starter/Media/Data Source/Gallary/__Standard Values
+ID: "9a0a51b5-e98a-46fd-8434-f6795b9cc772"
+Parent: "c60b2488-0aa7-4ddd-bac9-aac1fbbd0266"
+Template: "35e75c72-4985-4e09-88c3-0eac6cd1e64f"
+Path: /sitecore/templates/Branches/Feature/Tailwind Starter/Media/Gallary
 SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: "{D885DF8C-B2D6-4007-B34B-2BBAFB527304}"
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: sxa/16x16/gallery.png
 Languages:
 - Language: en
   Versions:
@@ -14,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250206T041424Z
+      Value: 20250210T041624Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +25,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f89a6596-1a27-4b9e-9bf2-e56ef5df89c2"
+      Value: "a61738b3-bdc0-470d-8b27-4efa429ea592"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250210T041559Z
+      Value: 20250210T042021Z

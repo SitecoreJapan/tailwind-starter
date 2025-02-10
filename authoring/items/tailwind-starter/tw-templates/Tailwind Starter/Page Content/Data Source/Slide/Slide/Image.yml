@@ -1,8 +1,15 @@
 ﻿---
-ID: "86eb784a-b78a-468d-b9d9-344c9e6e66ae"
-Parent: "b9b01c22-8be0-4a57-9a72-33187845b338"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Carousel Slide/Slide
+ID: "31455fdd-9612-4345-9d0c-09237088d71c"
+Parent: "86eb784a-b78a-468d-b9d9-344c9e6e66ae"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Slide/Slide/Image
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -21,7 +28,7 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a4833966-59d6-4213-8602-7ee8cd8caa28"
+      Value: "c7fc2ba4-d19e-46c5-bed3-3a55d00186f1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

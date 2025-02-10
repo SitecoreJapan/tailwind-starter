@@ -12,7 +12,7 @@ SharedFields:
   Value: sxa/16x16/gallery.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Tailwind Starter/Media/Data Source/Gallary
+  Value: /sitecore/templates/Branches/Feature/Tailwind Starter/Media/Gallary
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{055EF20B-2A33-458B-A55F-7E7EBCADD8CE}"
@@ -37,14 +37,14 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1142364-4c8a-449e-843e-0e030a66a6bd"
+      Value: "642586c8-1ffd-4382-bcc2-c808f7dcbfa5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T044256Z
+      Value: 20250210T042221Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

@@ -1,15 +1,15 @@
 ﻿---
-ID: "31360bc3-fba0-439f-abac-020fddd44123"
+ID: "d339197d-638f-4423-8e95-bdbd2dba4ba7"
 Parent: "86eb784a-b78a-468d-b9d9-344c9e6e66ae"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Carousel Slide/Slide/Title
+Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Slide/Slide/Link
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -28,7 +28,7 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7238c10e-669f-419d-8bd0-cea399a08486"
+      Value: "8799f728-44a4-4776-b92f-72aceec513e3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
