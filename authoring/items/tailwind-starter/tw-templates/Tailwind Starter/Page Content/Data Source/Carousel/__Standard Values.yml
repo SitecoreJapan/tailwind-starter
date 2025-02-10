@@ -3,6 +3,10 @@ ID: "b50fd3b0-0128-485c-84e8-296546b763f2"
 Parent: "d46369ca-0243-49ab-b0e4-7c436b9a45c8"
 Template: "d46369ca-0243-49ab-b0e4-7c436b9a45c8"
 Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Carousel/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{B9B01C22-8BE0-4A57-9A72-33187845B338}"
 Languages:
 - Language: en
   Versions:
@@ -21,11 +25,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2d2ba8ed-af6a-4136-bab0-65fd8f18e47b"
+      Value: "d7d57d8e-3104-46a1-988b-140f12344421"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T041706Z
+      Value: 20250210T082314Z

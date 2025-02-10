@@ -1,25 +1,39 @@
-import React from 'react';
-import {
-  TextField,
-  useSitecoreContext,
-  SitecoreContextValue,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import React, { useCallback } from 'react';
+import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
+import Image from 'next/image';
 
-type ResultsSlideLink = {
-  fields: {
-    id: string;
-    jsonValue: JSON;
-    name: string;
+interface ImageValue {
+  src: string;
+  alt: string;
+  width: string;
+  height: string;
+}
+
+interface LinkValue {
+  href: string;
+  linktype: string;
+}
+
+interface Field {
+  id: string;
+  jsonValue: {
+    value: ImageValue | string | LinkValue;
   };
-};
+  name: string;
+  value: string;
+}
+
+interface SlideLink {
+  fields: Field[];
+}
 
 interface Fields {
   data: {
     datasource: {
       children: {
-        results: {
-          fields: ResultsSlideLink[];
-        };
+        results: SlideLink[];
       };
       field: {
         title: TextField;
@@ -33,32 +47,59 @@ interface CarouselProps {
   fields: Fields;
 }
 
-const getLocale = function (props: SitecoreContextValue): string {
-  let locale;
-
-  if (!props.language || props.language === `en`) {
-    locale = '';
-  } else {
-    locale = '/' + props.language;
-  }
-
-  return locale;
-};
-
 export const Default = (props: CarouselProps): JSX.Element => {
-  const { sitecoreContext } = useSitecoreContext();
   const id = props.params.RenderingIdentifier;
 
-  const contentLocale = getLocale(sitecoreContext);
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+
   const datasource = props.fields?.data?.datasource;
 
-  console.log('locale:', contentLocale);
-  console.log('datasource:', datasource);
+  const slideData = datasource?.children?.results;
+  const imageFields =
+    slideData?.flatMap((slide) => slide.fields.filter((field) => field.name === 'Image')) || [];
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div className={`component carousel ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
-        <p>Carousel Component</p>
+        <div className="relative h-1/2 mx-auto">
+          <div className="overflow-hidden" ref={emblaRef}>
+            <div className="flex">
+              {imageFields.map((field, index) => (
+                <div className="flex-[0_0_100%] h-1/2 min-w-full" key={index}>
+                  <Image
+                    src={(field.jsonValue.value as ImageValue).src}
+                    alt={(field.jsonValue.value as ImageValue).alt}
+                    width={1100}
+                    height={733}
+                    className="rounded-lg w-full h-full object-cover"
+                    priority
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <button
+            className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full"
+            onClick={scrollPrev}
+          >
+            ◀
+          </button>
+          <button
+            className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full"
+            onClick={scrollNext}
+          >
+            ▶
+          </button>
+        </div>
       </div>
     </div>
   );
