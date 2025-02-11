@@ -59,6 +59,11 @@ const nextConfig = {
         hostname: 'sitecoredemojp.sitecoresandbox.cloud',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+        port: '',
+      },
     ],
   },
 
