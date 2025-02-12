@@ -1,0 +1,31 @@
+﻿---
+ID: "c4e6aaf3-c54c-45aa-8769-d4b984d97337"
+Parent: "c6e7443c-a937-43bf-89ea-804bf8136e38"
+Template: "c6e7443c-a937-43bf-89ea-804bf8136e38"
+Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Rendering Parameters/Maps/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250212T011555Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "631ff9d5-2324-4d07-875e-e798f59e7a32"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250212T011555Z
