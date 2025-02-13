@@ -1,12 +1,8 @@
 ﻿---
-ID: "44a8cc56-a544-44fa-8ea4-447255ea44d9"
-Parent: "626bf540-9efa-44cc-8d20-1a5c82802805"
-Template: "626bf540-9efa-44cc-8d20-1a5c82802805"
-Path: /sitecore/templates/Feature/Tailwind Starter/Media/Data Source/Gallary/__Standard Values
-SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: "{D885DF8C-B2D6-4007-B34B-2BBAFB527304}"
+ID: "3c4103f5-722c-4cf6-8e13-e2b37bc5f17e"
+Parent: "c8092319-950e-493a-9abf-2caa6b4027b8"
+Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Path: /sitecore/templates/Branches/Feature/Tailwind Starter/Media/Gallary/$name/Image 1
 Languages:
 - Language: en
   Versions:
@@ -14,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250206T041424Z
+      Value: 20250210T041657Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +21,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f89a6596-1a27-4b9e-9bf2-e56ef5df89c2"
+      Value: "82b353de-9ac9-452a-89c9-6499542e78e4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250210T041559Z
+      Value: 20250210T041657Z

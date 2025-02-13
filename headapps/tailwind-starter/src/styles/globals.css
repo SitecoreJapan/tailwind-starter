@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 /* Pages Style - Common */
-@import './common/alignment.css';
-@import './common/highlight.css';
-@import './common/spacing.css';
+@import './common/Alignment.css';
+@import './common/Highlight.css';
+@import './common/Spacing.css';
 
 /* Components */
 @import './components/ColumnSplitter.css';
@@ -19,5 +19,7 @@
 @import './components/RichText.css';
 
 /* Custom Components */
-@import './components/breadcrumb.css';
+@import './components/Breadcrumb.css';
+@import './components/Carousel.css';
 @import './components/Hero.css';
+

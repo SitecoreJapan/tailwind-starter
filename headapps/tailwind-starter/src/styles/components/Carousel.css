@@ -1,0 +1,14 @@
+.component.carousel {
+  &.height-400 {
+    > div > div > div > div {
+      @apply h-[400px];
+    }
+  }
+
+  &.height-600 {
+    > div > div > div > div {
+      @apply h-[600px];
+    }
+  }
+}
+

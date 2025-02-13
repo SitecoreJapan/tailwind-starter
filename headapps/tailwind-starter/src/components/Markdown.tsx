@@ -28,7 +28,7 @@ export const Default = (props: MarkdownProps): JSX.Element => {
   const markdown = props.fields.Markdown.value;
 
   const checkEdit = props.params.Edit ? true : false;
-  console.log(checkEdit);
+  // console.log(checkEdit);
 
   return (
     <div className={`component markdown ${props.params.styles}`} id={id ? id : undefined}>

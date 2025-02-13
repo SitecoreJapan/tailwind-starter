@@ -1,15 +1,8 @@
 ﻿---
-ID: "d339197d-638f-4423-8e95-bdbd2dba4ba7"
-Parent: "86eb784a-b78a-468d-b9d9-344c9e6e66ae"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Carousel Slide/Slide/Link
-SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: General Link
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 300
+ID: "61660b18-2a44-43b2-9ba4-bcb1593c57c0"
+Parent: "a8b9318e-0eb5-47ea-b265-1fdea0bd7d1d"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: "/sitecore/content/starter/tailwind-basic/Presentation/Headless Variants/YouTube/Default"
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250209T054258Z
+      Value: 20250210T104041Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8799f728-44a4-4776-b92f-72aceec513e3"
+      Value: "b3390f9e-a0dc-4104-a96a-2ae31f971a16"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250209T054442Z
+      Value: 20250210T104041Z

@@ -9,6 +9,7 @@ SharedFields:
   Value: |
     {9B08DD4C-C5C6-4F1F-92C4-968CE9239BC5}
     {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {A25F725D-9FF0-4EBB-9CE4-7AD92CFDBCB9}
 Languages:
 - Language: en
   Versions:
@@ -30,11 +31,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "05e79960-1995-427d-b63a-44728b495358"
+      Value: "c03f8853-a473-475e-938c-9d47d1219308"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T061820Z
+      Value: 20250209T063825Z
