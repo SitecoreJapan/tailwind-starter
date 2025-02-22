@@ -1,12 +1,12 @@
 ﻿---
-ID: "b7b68981-5cec-418a-b29c-aab170efe1dd"
+ID: "b5f37c38-ab3d-40c2-b15e-0c7be035231e"
 Parent: "8e9cd4ef-7d46-4d03-b48e-95c361ed0d81"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
-Path: "/sitecore/content/starter/tailwind-basic/Presentation/Styles/Carousel/Test"
+Path: "/sitecore/content/starter/tailwind-basic/Presentation/Styles/Carousel/Height 600px"
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
-  Value: test
+  Value: "height-600"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
   Value: "{AFCB6246-8ABE-4461-A4ED-BFF794285018}"
@@ -28,11 +28,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75ba1996-30e1-4549-9754-0d3355185aac"
+      Value: "f9223de0-2d8e-48fd-9d45-0a79ff17588e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250210T070754Z
+      Value: 20250211T050052Z

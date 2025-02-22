@@ -50,26 +50,31 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{C46A1BE2-4BA2-4C30-84F7-5F6B5B73C5D7}"
-              p:after="r[@uid='{5C8FF6DF-5A8D-4AF2-9D83-AA35435FD20B}']"
-              s:ds="local:/Data/Hero"
-              s:id="{2217CAEB-153F-4BF5-AC9B-F8509CB9B2FB}"
-              s:par="Reset Caching Options&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-              s:ph="/headless-main/row-1-1" />
+              uid="{5C8FF6DF-5A8D-4AF2-9D83-AA35435FD20B}">
+              <p:da
+                name="ds" />
+            </r>
             <r
               uid="{AFA717D2-AB4E-41A4-9C3B-3C58766D1421}"
-              p:after="r[@uid='{C46A1BE2-4BA2-4C30-84F7-5F6B5B73C5D7}']"
+              p:after="r[@uid='{5C8FF6DF-5A8D-4AF2-9D83-AA35435FD20B}']"
               s:ds="{707E2822-0743-42B1-BF7C-3179CB38101B}"
               s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
               s:par="GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames=%7B101B7810-311C-4A85-BD6C-1834070D53AD%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
               s:ph="/headless-main/row-2-1/column-1-2" />
             <r
               uid="{D46EC08A-4248-4703-928C-011A143A1C59}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{AFA717D2-AB4E-41A4-9C3B-3C58766D1421}']"
               s:ds="{4A39DC92-6AFA-4867-BE71-8B92C48B123E}"
               s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
               s:par="GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames=%7B101B7810-311C-4A85-BD6C-1834070D53AD%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
               s:ph="/headless-main/row-2-1/column-2-2" />
+            <r
+              uid="{87CE382E-066B-445F-ABF2-59E76B73438C}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Hero"
+              s:id="{2217CAEB-153F-4BF5-AC9B-F8509CB9B2FB}"
+              s:par="Reset Caching Options&amp;GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/row-1-1" />
           </d>
         </r>
     - ID: "18a45c69-9ce8-4fbd-8ddd-35d4556e18f7"
@@ -91,14 +96,14 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "29f96923-a2f3-4d73-b42c-4746e20666c6"
+      Value: "dd135936-1ab2-4181-b22e-40b8d6c78a84"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T104318Z
+      Value: 20250212T023513Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
