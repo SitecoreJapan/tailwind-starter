@@ -13,10 +13,10 @@ SharedFields:
     {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
     {3836D951-BB14-43AC-9231-649B7F245DC5}
     {AFCB6246-8ABE-4461-A4ED-BFF794285018}
-    {523CD37A-FE5C-4583-BB99-AC1C3A7C0A66}
     {2217CAEB-153F-4BF5-AC9B-F8509CB9B2FB}
     {E6A46AE5-8339-4ACF-8DA4-5FEB20C35CA4}
     {A9CF1EA0-EB49-4681-B855-1CE292529F6F}
+    {AD0F4185-F1CE-4FE1-B901-74AB745445D9}
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
@@ -38,14 +38,14 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "116d28cb-a9c2-4bc9-a2c3-8322db4dceac"
+      Value: "764b20d0-11da-4a14-ab2a-ecd272def3af"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T060102Z
+      Value: 20250227T074100Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

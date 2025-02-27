@@ -23,7 +23,7 @@ export const Default = (props: GallaryProps): JSX.Element => {
   const [selectedImage, setSelectedImage] = useState<string>(imageList.image1);
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div className={`component gallary ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
         <div className="flex flex-col space-y-4">
           <div className="flex-grow">

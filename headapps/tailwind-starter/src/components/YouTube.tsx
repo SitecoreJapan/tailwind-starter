@@ -19,7 +19,7 @@ export const Default = (props: YouTubeProps): JSX.Element => {
     new URLSearchParams(new URL(props.fields.URL.value).search).get('v') || 'dQw4w9WgXcQ';
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div className={`component youtube ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
         <YouTubeEmbed videoid={videoId} width={640} height={400} playlabel="Play" params="" />
       </div>
@@ -40,7 +40,7 @@ export const Zoom = (props: YouTubeProps): JSX.Element => {
   const closeModal = () => setIsOpen(false);
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div className={`component youtube ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
         <div className="relative w-full max-w-md mx-auto cursor-pointer" onClick={openModal}>
           <Image
