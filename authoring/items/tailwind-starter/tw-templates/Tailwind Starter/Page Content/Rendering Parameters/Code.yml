@@ -1,9 +1,12 @@
 ﻿---
 ID: "c824696d-004c-4b52-908d-f1f125199fdd"
-Parent: "a5bb2328-acb8-4208-ac4e-41a289d04ed2"
+Parent: "153d3443-008e-49a5-88a6-bc19ca0bc127"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Tailwind Starter/Rendering Parameters/Code
+Path: /sitecore/templates/Feature/Tailwind Starter/Page Content/Rendering Parameters/Code
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: software/32x32/text_code.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -34,11 +37,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7f1c367f-4d8f-454a-a1b7-cbca871421fd"
+      Value: "b0a28dd2-522e-4ebe-96db-78d299027596"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250227T073216Z
+      Value: 20250227T081754Z
