@@ -1,7 +1,7 @@
 {
   "name": "tailwind-starter",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
-  "version": "22.4.1",
+  "version": "22.5.0",
   "private": true,
   "config": {
     "appName": "tailwind-starter",
@@ -35,7 +35,7 @@
     "@sitecore-cloudsdk/core": "^0.4.2",
     "@sitecore-cloudsdk/events": "^0.4.2",
     "@sitecore-feaas/clientside": "^0.5.19",
-    "@sitecore-jss/sitecore-jss-nextjs": "~22.4.1",
+    "@sitecore-jss/sitecore-jss-nextjs": "~22.5.0",
     "@sitecore/components": "~2.0.1",
     "embla-carousel-autoplay": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
@@ -62,8 +62,8 @@
     "@graphql-codegen/typescript-operations": "^4.0.1",
     "@graphql-codegen/typescript-resolvers": "^4.0.1",
     "@graphql-typed-document-node/core": "^3.2.0",
-    "@sitecore-jss/sitecore-jss-cli": "~22.4.1",
-    "@sitecore-jss/sitecore-jss-dev-tools": "~22.4.1",
+    "@sitecore-jss/sitecore-jss-cli": "~22.5.0",
+    "@sitecore-jss/sitecore-jss-dev-tools": "~22.5.0",
     "@types/node": "^22.9.0",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.0.5",
@@ -107,3 +107,4 @@
     "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
   }
 }
+
