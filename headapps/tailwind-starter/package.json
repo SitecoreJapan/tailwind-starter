@@ -37,6 +37,7 @@
     "@sitecore-feaas/clientside": "^0.5.19",
     "@sitecore-jss/sitecore-jss-nextjs": "~22.5.0",
     "@sitecore/components": "~2.0.1",
+    "@vis.gl/react-google-maps": "^1.5.1",
     "embla-carousel-autoplay": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
     "graphql": "~15.8.0",
@@ -107,4 +108,3 @@
     "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
   }
 }
-

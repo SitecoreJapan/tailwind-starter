@@ -1,0 +1,29 @@
+.component.maps {
+  [data-testid='map'] {
+    @apply h-[150px] w-full;
+  }
+
+  &.map-h-200 {
+    [data-testid='map'] {
+      @apply h-[200px];
+    }
+  }
+
+  &.map-h-300 {
+    [data-testid='map'] {
+      @apply h-[300px];
+    }
+  }
+
+  &.map-h-600 {
+    [data-testid='map'] {
+      @apply h-[600px];
+    }
+  }
+  &.map-w-1-2 {
+    [data-testid='map'] {
+      @apply w-1/2;
+    }
+  }
+}
+
