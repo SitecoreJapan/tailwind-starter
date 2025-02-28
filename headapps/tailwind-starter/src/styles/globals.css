@@ -10,6 +10,7 @@
 @import './common/Spacing.css';
 
 /* Components */
+@import './components/Code.css';
 @import './components/ColumnSplitter.css';
 @import './components/Container.css';
 @import './components/Image.css';

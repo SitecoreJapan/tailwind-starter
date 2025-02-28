@@ -1,0 +1,11 @@
+.component.code {
+  pre[filepath] {
+    @apply relative pt-8 rounded-lg bg-gray-700 text-white p-4;
+  }
+
+  pre[filepath]::before {
+    content: attr(filepath);
+    @apply absolute top-0 left-0 bg-gray-700 text-white text-sm font-bold py-1 px-3 rounded-t-lg;
+  }
+}
+
