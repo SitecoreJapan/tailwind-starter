@@ -1,0 +1,6 @@
+.component.title {
+  div div {
+    @apply md:text-2xl lg:text-3xl font-bold mb-3;
+  }
+}
+

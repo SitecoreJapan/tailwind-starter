@@ -92,3 +92,16 @@ export const Default = (props: TitleProps): JSX.Element => {
     </ComponentContent>
   );
 };
+
+export const OnlyText = (props: TitleProps): JSX.Element => {
+  const datasource = props.fields?.data?.datasource || props.fields?.data?.contextItem;
+  const text: TextField = datasource?.field?.jsonValue || {};
+
+  return (
+    <ComponentContent styles={props.params.styles} id={props.params.RenderingIdentifier}>
+      <>
+        <Text field={text} />
+      </>
+    </ComponentContent>
+  );
+};
