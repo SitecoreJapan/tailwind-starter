@@ -1,0 +1,92 @@
+.flex {
+  display: flex;
+}
+
+.basis-1\/6 {
+  flex-basis: 16.666667%;
+}
+
+.basis-full {
+  flex-basis: 100%;
+}
+
+.basis-0 {
+  flex-basis: 0;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:block {
+    display: block;
+  }
+}
+
+/* {
+      pattern: /basis-/,
+    }
+  
+    ,
+    {
+    pattern: /self-/,
+    }
+  
+    ,
+    {
+    pattern: /ml-/,
+    }
+  
+    ,
+    {
+    pattern: /mr-/,
+    }
+  
+    ,
+    {
+    pattern: /flex-/,
+      variants: ['sm', 'md', 'lg', 'xl', '2xl'],
+    }
+  
+    ,
+    {
+    pattern: /hidden/,
+      variants: ['sm', 'md', 'lg', 'xl', '2xl'],
+    }
+  
+    ,
+    {
+    pattern: /block/,
+      variants: ['sm', 'md', 'lg', 'xl', '2xl'],
+    }
+        extend: {
+          colors: {
+            background: {
+              dark: '#1E1E1E',
+            }
+    
+            ,
+          }
+    
+             */
