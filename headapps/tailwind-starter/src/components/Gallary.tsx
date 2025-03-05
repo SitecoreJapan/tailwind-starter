@@ -26,7 +26,7 @@ export const Default = (props: GallaryProps): JSX.Element => {
     <div className={`component gallary ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
         <div className="flex flex-col space-y-4">
-          <div className="flex-grow">
+          <div className="grow">
             <img src={selectedImage} alt="Selected" className="w-full h-full object-contain" />
           </div>
           <div className="flex justify-center space-x-2 overflow-x-auto items-center">
@@ -42,7 +42,7 @@ export const Default = (props: GallaryProps): JSX.Element => {
                 }}
               />
             </div>
-            <div className="flex-grow flex justify-center space-x-2 overflow-hidden">
+            <div className="grow flex justify-center space-x-2 overflow-hidden">
               {Object.keys(imageList).map((key: keyof typeof imageList) => (
                 <img
                   key={key}

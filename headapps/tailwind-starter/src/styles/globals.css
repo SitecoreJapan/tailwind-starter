@@ -1,29 +1,47 @@
-@import './app.css';
+@import './app.css' layer(base);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 /* Pages Style - Common */
-@import './common/Alignment.css';
-@import './common/Highlight.css';
-@import './common/Spacing.css';
+@import './common/Alignment.css' layer(utilities);
+@import './common/Highlight.css' layer(utilities);
+@import './common/Spacing.css' layer(utilities);
 
 /* Components */
-@import './components/ColumnSplitter.css';
-@import './components/Container.css';
-@import './components/Image.css';
-@import './components/LinkList.css';
-@import './components/Navigation.css';
-@import './components/PageContent.css';
-@import './components/Promo.css';
-@import './components/RichText.css';
-@import './components/Title.css';
+@import './components/ColumnSplitter.css' layer(utilities);
+@import './components/Container.css' layer(utilities);
+@import './components/Image.css' layer(utilities);
+@import './components/LinkList.css' layer(utilities);
+@import './components/Navigation.css' layer(utilities);
+@import './components/PageContent.css' layer(utilities);
+@import './components/Promo.css' layer(utilities);
+@import './components/RichText.css' layer(utilities);
+@import './components/Title.css' layer(utilities);
 
 /* Custom Components */
-@import './components/Breadcrumb.css';
-@import './components/Carousel.css';
-@import './components/Code.css';
-@import './components/Hero.css';
-@import './components/Map.css';
+@import './components/Breadcrumb.css' layer(utilities);
+@import './components/Carousel.css' layer(utilities);
+@import './components/Code.css' layer(utilities);
+@import './components/Hero.css' layer(utilities);
+@import './components/Map.css' layer(utilities);
+
+@config '../../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
 
