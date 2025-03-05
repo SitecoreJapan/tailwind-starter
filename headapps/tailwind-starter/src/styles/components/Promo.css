@@ -11,7 +11,7 @@
     @apply text-right mr-5;
   }
   .field-promolink a {
-    @apply inline-block bg-blue-500 text-white py-2 px-4 rounded;
+    @apply inline-block bg-blue-500 text-white py-2 px-4 rounded-sm;
   }
 }
 

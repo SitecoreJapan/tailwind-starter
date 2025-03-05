@@ -61,7 +61,7 @@ export const Default = (props: LanguageSelectorProps): JSX.Element => {
         </span>
         {showLanguageDropdown ? <ChevronUp className="ml-2" /> : <ChevronDown className="ml-2" />}
         {showLanguageDropdown && (
-          <div className="language-dropdown z-10 absolute top-full py-2 px-4 border border-gray-300 dark:border-gray-500 bg-white dark:bg-background-dark">
+          <div className="language-dropdown z-10 absolute top-full py-2 px-4 border bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-500">
             {availableLanguages.map((lang) => (
               <span
                 key={lang.locale}

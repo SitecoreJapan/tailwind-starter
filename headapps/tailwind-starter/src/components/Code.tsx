@@ -61,12 +61,12 @@ export const Default = (props: CodeBlockProps): JSX.Element => {
         <div className="relative">
           <button
             onClick={handleCopyToClipboard}
-            className="absolute top-4 right-4 bg-gray-800 text-white p-2 rounded z-10"
+            className="absolute top-4 right-4 bg-gray-800 text-white p-2 rounded-sm z-10"
           >
             <Clipboard />
           </button>
           {tooltipVisible && (
-            <div className="absolute top-4 z-20 right-14 bg-white p-1 rounded">Copied!</div>
+            <div className="absolute top-4 z-20 right-14 bg-white p-1 rounded-sm">Copied!</div>
           )}
           <div className="p-4 rounded-md" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
