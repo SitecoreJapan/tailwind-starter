@@ -34,11 +34,11 @@ if ($ClientCredentialsLogin -eq "true") {
 }
 
 #set node version
-# $xmCloudBuild = Get-Content "$RepoRoot/xmcloud.build.json" | ConvertFrom-Json
-# $nodeVersion = $xmCloudBuild.renderingHosts.nextjsstarter.nodeVersion
-# if (![string]::IsNullOrWhitespace($nodeVersion)) {
-#     Set-EnvFileVariable "NODEJS_VERSION" -Value $xmCloudBuild.renderingHosts.nextjsstarter.nodeVersion -Path $envFileLocation
-# }
+$xmCloudBuild = Get-Content "$RepoRoot/xmcloud.build.json" | ConvertFrom-Json
+$nodeVersion = $xmCloudBuild.renderingHosts.nextjsstarter.nodeVersion
+if (![string]::IsNullOrWhitespace($nodeVersion)) {
+    Set-EnvFileVariable "NODEJS_VERSION" -Value $xmCloudBuild.renderingHosts.nextjsstarter.nodeVersion -Path $envFileLocation
+}
 
 # Double check whether init has been run
 $envCheckVariable = "HOST_LICENSE_FOLDER"

@@ -28,7 +28,7 @@
       }
 
       .level1.rel-level2:hover>ul {
-        @apply block z-10 absolute shadow-md min-w-[200px] bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+        @apply block z-10 absolute shadow-md min-w-[200px] bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-500;
       }
 
       /* no Home */
@@ -45,7 +45,7 @@
       }
 
       .level1.rel-level1:hover>ul {
-        @apply block z-10 absolute shadow-md min-w-[200px] bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+        @apply block z-10 absolute shadow-md min-w-[200px] bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-500;
       }
     }
 
@@ -70,7 +70,7 @@
       }
 
       .level1.rel-level2:hover>ul {
-        @apply flex z-10 absolute left-0 shadow-md w-screen bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+        @apply flex z-10 absolute left-0 shadow-md w-screen bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-500;
       }
 
       /* no Home */
@@ -87,7 +87,7 @@
       }
 
       .level1.rel-level1:hover>ul {
-        @apply flex z-10 absolute left-0 shadow-md w-screen bg-white dark:bg-background-dark border border-gray-300 dark:border-gray-500;
+        @apply flex z-10 absolute left-0 shadow-md w-screen bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-500;
       }
     }
   }
@@ -135,7 +135,7 @@
   }
 
   &.navigation-mobile {
-    @apply bg-white dark:bg-background-dark;
+    @apply bg-white dark:bg-gray-900;
 
     .menu-mobile-navigate {
       display: none;
@@ -146,7 +146,7 @@
     }
 
     .menu-mobile-navigate:checked~.component-content {
-      @apply block bg-white dark:bg-background-dark;
+      @apply block bg-white dark:bg-gray-900;
     }
 
     .component-content {
@@ -170,7 +170,7 @@
     .menu-mobile-navigate+.menu-humburger::before,
     .menu-mobile-navigate+.menu-humburger::after,
     .menu-mobile-navigate+.menu-humburger div {
-      @apply bg-background-dark border dark:bg-white block w-full h-0.5 my-0.5;
+      @apply bg-gray-900 border dark:bg-white block w-full h-0.5 my-0.5;
       content: '';
     }
 

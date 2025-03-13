@@ -11,6 +11,11 @@
         "scope": "ItemAndDescendants"
       },
       {
+        "name": "template-branch",
+        "path": "/sitecore/templates/Branches/Project/starter",
+        "scope": "ItemAndDescendants"
+      },
+      {
         "name": "media",
         "path": "/sitecore/media library/Project/starter",
         "rules": [

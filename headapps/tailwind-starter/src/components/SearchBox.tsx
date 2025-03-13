@@ -10,7 +10,7 @@ export const Default = (props: SearchBoxProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div className={`component search-box ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
         <p>SearchBox Component</p>
       </div>

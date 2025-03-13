@@ -77,7 +77,7 @@ export const Default = (props: LinkListProps): JSX.Element => {
   const contentLocale = getLocale(sitecoreContext);
 
   const datasource = props.fields?.data?.datasource;
-  const styles = `component link-list ${props.params.styles}`.trimEnd();
+  const styles = `component link-list ${props?.params?.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
 
   if (datasource) {

@@ -1,0 +1,74 @@
+﻿---
+ID: "abae0d33-4f49-4a52-b7c6-319003eade7a"
+Parent: "f07f63c0-6b9b-40dd-971d-e1bc0ce1537b"
+Template: "ab4a6f08-5ed9-4908-b259-53a6cd2c635b"
+Path: "/sitecore/content/starter/tailwind-basic/Home/Data/Hero_var2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T062409Z
+    - ID: "2a2813c3-9bde-4d28-9452-45ab8d032943"
+      Hint: HeroImage
+      Value: |
+        <image mediaid="6f84cf5c-832a-4730-adc4-753167c1be59" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60fd696c-6a68-4f46-bb88-c7f5ecfe2198"
+    - ID: "a8a66bfc-cfbb-4c46-b455-9962ccf0fda8"
+      Hint: HeroTitle
+      Value: Welcome to XM Cloud Starter Kit
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250212T012950Z
+    - ID: "f628b356-c4f6-4e8d-ae2f-f99f7480ae35"
+      Hint: HeroText
+      Value: <p>This is the basic site for the starter kit that uses Next.js + Tailwind CSS.</p>
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250206T062723Z
+    - ID: "2a2813c3-9bde-4d28-9452-45ab8d032943"
+      Hint: HeroImage
+      Value: |
+        <image mediaid="6f84cf5c-832a-4730-adc4-753167c1be59" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d40d990-3a8a-4533-823c-7d45608714c4"
+    - ID: "a8a66bfc-cfbb-4c46-b455-9962ccf0fda8"
+      Hint: HeroTitle
+      Value: XM Cloud スターターキットへようこそ
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250212T012950Z
+    - ID: "f628b356-c4f6-4e8d-ae2f-f99f7480ae35"
+      Hint: HeroText
+      Value: <p>これは、Next.js + Tailwind CSS を使用したスターターキットの基本サイトです。</p>

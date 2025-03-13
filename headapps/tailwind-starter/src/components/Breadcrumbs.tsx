@@ -33,7 +33,7 @@ export const Default = (props: BreadcrumbProps): JSX.Element => {
   if (data.item.ancestors.length > 0) {
     return (
       <>
-        <div className={`content breadcrumb ${props.params.styles}`} id={id ? id : undefined}>
+        <div className={`component breadcrumb ${props.params.styles}`} id={id ? id : undefined}>
           <div className="component-content">
             {generateBreadcrumbList(data.item.ancestors, locale)}
           </div>
@@ -43,7 +43,7 @@ export const Default = (props: BreadcrumbProps): JSX.Element => {
   }
 
   return (
-    <div className="content breadcrumb" id={id ? id : undefined}>
+    <div className="component breadcrumb" id={id ? id : undefined}>
       <div className="component-content">
         <div>Breadcrumb</div>
       </div>

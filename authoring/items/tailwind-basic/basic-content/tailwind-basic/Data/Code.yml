@@ -1,0 +1,23 @@
+﻿---
+ID: "8d9a8b2a-d33e-41d4-bcda-6f387004ee12"
+Parent: "3a553c3e-7ec3-4407-8bc1-ed94d4e9a987"
+Template: "ad9d1e7d-0263-4b26-81e8-e6191476a00a"
+Path: "/sitecore/content/starter/tailwind-basic/Data/Code"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250227T081601Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79ac8cb7-f2fb-492a-804e-f5093c12d7f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250227T081607Z
