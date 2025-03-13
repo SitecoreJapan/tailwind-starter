@@ -16,7 +16,8 @@ Languages:
       Value: 20250206T062442Z
     - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
       Hint: PromoText
-      Value: <p>By using the browser extension Sitecore Language Switcher, you can use the administration screen in Danish, German, French, and Japanese.</p>
+      Value: |
+        <div class="ck-content"><p>By using the browser extension Sitecore Language Switcher, you can use the administration screen in Danish, German, French, and Japanese.</p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,14 +28,14 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5b8a4849-160e-46ca-ac27-301cd335cf89"
+      Value: "e5103eec-80eb-41be-8e1e-eabbc29e3a12"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T090110Z
+      Value: 20250212T012845Z
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
       Value: |

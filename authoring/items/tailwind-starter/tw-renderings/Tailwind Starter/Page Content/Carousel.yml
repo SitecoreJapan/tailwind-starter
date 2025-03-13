@@ -10,9 +10,27 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: sxa/16x16/carousel.png
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    query Search($language: String!, $datasource: String!) {
+        datasource: item(language: $language, path: $datasource) {
+            children {
+                results {
+                    fields(ownFields: true) {
+                        id
+                        jsonValue
+                        name
+                        value
+                    }
+                }
+            }
+        }
+    }
+    
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Tailwind Starter/Page Content/Data Source/Carousel
+  Value: /sitecore/templates/Branches/Feature/Tailwind Starter/Page Content/Carousel
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{34351C63-1B73-415F-9373-A0F816CA0CE5}"
@@ -37,14 +55,14 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c920cb53-8352-4b9d-9f67-559b0985129d"
+      Value: "687435fb-5a23-4aaa-a8bf-1aab593c2687"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T044329Z
+      Value: 20250210T060426Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

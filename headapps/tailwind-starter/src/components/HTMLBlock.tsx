@@ -10,7 +10,7 @@ export const Default = (props: HTMLBlockProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div className={`component htmlblock ${props.params.styles}`} id={id ? id : undefined}>
       <div className="component-content">
         <p>HTMLBlock Component</p>
       </div>

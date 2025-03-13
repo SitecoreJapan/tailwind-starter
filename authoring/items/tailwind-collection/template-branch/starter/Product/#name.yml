@@ -1,0 +1,43 @@
+﻿---
+ID: "e9f1960e-f07f-41a8-99c2-7f51ebfa8846"
+Parent: "61e46f67-0caa-4773-bdaf-37503a5d6ef2"
+Template: "b16d06cd-ae0c-4f4f-b1eb-3d24a7077663"
+Path: /sitecore/templates/Branches/Project/starter/Product/$name
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F9023511-4CD9-4DD5-8643-0434B386D4F9}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C761BE66-475A-44FD-96FF-96B23FB166F2}"
+          s:ds="local:/Data/Product"
+          s:id="{2217CAEB-153F-4BF5-AC9B-F8509CB9B2FB}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/sxa-product/row-1-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250228T095114Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67c0a6c3-bc1e-443e-ae5e-1037b50a8aee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250228T100016Z

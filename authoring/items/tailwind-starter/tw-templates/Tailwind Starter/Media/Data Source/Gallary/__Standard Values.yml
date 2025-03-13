@@ -3,6 +3,10 @@ ID: "44a8cc56-a544-44fa-8ea4-447255ea44d9"
 Parent: "626bf540-9efa-44cc-8d20-1a5c82802805"
 Template: "626bf540-9efa-44cc-8d20-1a5c82802805"
 Path: /sitecore/templates/Feature/Tailwind Starter/Media/Data Source/Gallary/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{D885DF8C-B2D6-4007-B34B-2BBAFB527304}"
 Languages:
 - Language: en
   Versions:
@@ -21,11 +25,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "912c19aa-afac-465d-add6-645d65411fe8"
+      Value: "f89a6596-1a27-4b9e-9bf2-e56ef5df89c2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T041424Z
+      Value: 20250210T041559Z

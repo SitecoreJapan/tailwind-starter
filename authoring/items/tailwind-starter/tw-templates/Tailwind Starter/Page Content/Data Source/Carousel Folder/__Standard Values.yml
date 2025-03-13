@@ -7,7 +7,7 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: |
-    {D46369CA-0243-49AB-B0E4-7C436B9A45C8}
+    {331F2BB8-5322-4C24-AF38-9C6AEDFA97A5}
     {84F84200-EE11-4187-A837-F69643930741}
 Languages:
 - Language: en
@@ -27,11 +27,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "29825df9-c715-4d65-907c-41ac1a05fb52"
+      Value: "86c84bde-9154-40ae-b604-3111f7a416bf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250206T044645Z
+      Value: 20250209T055344Z

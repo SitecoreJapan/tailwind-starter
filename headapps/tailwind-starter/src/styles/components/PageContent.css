@@ -1,0 +1,6 @@
+.component.content {
+  p {
+    @apply pb-3;
+  }
+}
+
