@@ -59,11 +59,11 @@ export const Default = (props: LinkListProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
 
   const contentLocale = getLocale(sitecoreContext);
+  let datasource = props.results?.data?.datasource;
+  if (sitecoreContext.pageEditing) {
+    datasource = props.fields.data.datasource;
+  }
 
-  console.log(props.fields);
-  console.log(props.results);
-
-  const datasource = props.fields?.data?.datasource;
   const styles = `component link-list ${props?.params?.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
 
@@ -102,8 +102,8 @@ export const Default = (props: LinkListProps): JSX.Element => {
 export const getStaticProps: GetStaticComponentProps = async (rendering, layoutData) => {
   const graphQLClient = graphqlClientFactory();
   const query = TitleQuery(rendering.dataSource, layoutData?.sitecore?.context?.language);
-  const results = await graphQLClient.request<Fields>(query);
-
+  const queryresults = await graphQLClient.request<Fields>(query);
+  const results = { data: queryresults };
   return {
     results,
   };
