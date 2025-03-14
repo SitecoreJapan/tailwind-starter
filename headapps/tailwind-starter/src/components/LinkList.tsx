@@ -3,33 +3,17 @@ import {
   Link as JssLink,
   Text,
   LinkField,
-  TextField,
   useSitecoreContext,
   SitecoreContextValue,
+  GetStaticComponentProps,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-
-type ResultsFieldLink = {
-  field: {
-    link: LinkField;
-  };
-};
-
-interface Fields {
-  data: {
-    datasource: {
-      children: {
-        results: ResultsFieldLink[];
-      };
-      field: {
-        title: TextField;
-      };
-    };
-  };
-}
+import { Fields, ResultsFieldLink, TitleQuery } from '../interfaces/LinkList';
+import graphqlClientFactory from 'lib/graphql-client-factory';
 
 type LinkListProps = {
   params: { [key: string]: string };
   fields: Fields;
+  results: Fields;
 };
 
 type LinkListItemProps = {
@@ -75,8 +59,11 @@ export const Default = (props: LinkListProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
 
   const contentLocale = getLocale(sitecoreContext);
+  let datasource = props.results?.data?.datasource;
+  if (sitecoreContext.pageEditing) {
+    datasource = props.fields.data.datasource;
+  }
 
-  const datasource = props.fields?.data?.datasource;
   const styles = `component link-list ${props?.params?.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
 
@@ -110,4 +97,14 @@ export const Default = (props: LinkListProps): JSX.Element => {
       </div>
     </div>
   );
+};
+
+export const getStaticProps: GetStaticComponentProps = async (rendering, layoutData) => {
+  const graphQLClient = graphqlClientFactory();
+  const query = TitleQuery(rendering.dataSource, layoutData?.sitecore?.context?.language);
+  const queryresults = await graphQLClient.request<Fields>(query);
+  const results = { data: queryresults };
+  return {
+    results,
+  };
 };
