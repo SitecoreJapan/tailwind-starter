@@ -28,14 +28,20 @@ export const Default = (props: BreadcrumbProps): JSX.Element => {
   const data = props.fields?.data;
 
   const { sitecoreContext } = useSitecoreContext();
+  // const isPageEditing = sitecoreContext.pageEditing;
+
   const locale = sitecoreContext.language || process.env.DEFAULT_LANGUAGE || 'en';
 
   if (data.item.ancestors.length > 0) {
+    const sortedBreadcrumbs = data.item.ancestors.sort(
+      (a, b) => a.url.path.length - b.url.path.length
+    );
+
     return (
       <>
         <div className={`component breadcrumb ${props.params.styles}`} id={id ? id : undefined}>
           <div className="component-content">
-            {generateBreadcrumbList(data.item.ancestors, locale)}
+            {generateBreadcrumbList(sortedBreadcrumbs, locale)}
           </div>
         </div>
       </>
@@ -52,13 +58,9 @@ export const Default = (props: BreadcrumbProps): JSX.Element => {
 };
 
 function generateBreadcrumbList(ancestors: Ancestor[], locale: string): JSX.Element {
-  // Reverse the ancestors array
-  const reversedAncestors = ancestors.reverse();
-
-  // check locale and create base Url
   const baseUrl = locale === 'en' ? '' : `/${locale}`;
 
-  const ancestorListItems = reversedAncestors.map((ancestor: Ancestor, index: number) => {
+  const ancestorListItems = ancestors.map((ancestor: Ancestor, index: number) => {
     return (
       <li key={index}>
         <a href={baseUrl + ancestor.url.path}>{ancestor.field.value}</a>
@@ -66,6 +68,5 @@ function generateBreadcrumbList(ancestors: Ancestor[], locale: string): JSX.Elem
     );
   });
 
-  // Wrap the list items with ul tags and return the JSX element
   return <ul className="flex space-x-2">{ancestorListItems}</ul>;
 }
