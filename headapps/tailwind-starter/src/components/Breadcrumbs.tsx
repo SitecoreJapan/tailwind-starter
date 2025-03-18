@@ -1,26 +1,12 @@
 import React from 'react';
-import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
-
-interface Ancestor {
-  field: {
-    value: string;
-  };
-  url: {
-    path: string;
-  };
-}
-
-interface Fields {
-  data: {
-    item: {
-      ancestors: Ancestor[];
-    };
-  };
-}
+import { GetStaticComponentProps, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Ancestor, BreadcrumbsQuery, Fields } from '@/interfaces/Breadcrumbs';
+import graphqlClientFactory from 'lib/graphql-client-factory';
 
 interface BreadcrumbProps {
   params: { [key: string]: string };
   fields: Fields;
+  results: Fields;
 }
 
 export const Default = (props: BreadcrumbProps): JSX.Element => {
@@ -30,6 +16,7 @@ export const Default = (props: BreadcrumbProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   // const isPageEditing = sitecoreContext.pageEditing;
 
+  // console.log(props.results);
   const locale = sitecoreContext.language || process.env.DEFAULT_LANGUAGE || 'en';
 
   if (data.item.ancestors.length > 0) {
@@ -70,3 +57,19 @@ function generateBreadcrumbList(ancestors: Ancestor[], locale: string): JSX.Elem
 
   return <ul className="flex space-x-2">{ancestorListItems}</ul>;
 }
+
+export const getStaticProps: GetStaticComponentProps = async (rendering, layoutData) => {
+  const graphQLClient = graphqlClientFactory();
+  const query = BreadcrumbsQuery(
+    layoutData?.sitecore?.route?.itemId,
+    layoutData?.sitecore?.context?.language
+  );
+
+  const datasource = rendering.dataSource;
+  console.log(datasource);
+  const queryresults = await graphQLClient.request<Fields>(query);
+  const results = { data: queryresults };
+  return {
+    results,
+  };
+};
