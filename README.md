@@ -1,10 +1,16 @@
-# XM Cloud Front End Application Starter Kits
+# Next.js + Tailwind CSS Starter Kits
 
-This repository contains the Next.js Starter Kit, and the SPA Starters monorepo (which includes a Node Proxy Application and and SPA starter apps) for Sitecore XM Cloud Development. It is intended to get developers up and running quickly with a new front end project that is integrated with Sitecore XM Cloud.
+This repository contains the Next.js + Tailwind CSS Starter Kit for Sitecore XM Cloud Development. It is intended to get developers up and running quickly with a new front end project that is integrated with Sitecore XM Cloud.
 
 ## GitHub Template
 
 This Github repository is a template that can be used to create your own repository. To get started, click the `Use this template` button at the top of the repository.
+
+## Additional Content
+
+You can get a sample site that uses the components provided in the Starter Kit from the following repository.
+
+- https://github.com/SitecoreJapan/sitecoredemo-jp
 
 ### Prerequisites
 
@@ -30,10 +36,6 @@ For developers new to XM Cloud you can follow the Getting Started Guide on the [
 - You should now be able to access your site on `http://localhost:3000` and see your changes in real-time as you make them.
 
 If you want to use sample site, please use serialized data.
-
-### SPA Starters Monorepo and Angular SPA
-
-A new starter SPA based on Angular has been introduced with JSS v22.3.0. The Angular starter has been designed to be compatible with XM Cloud and should be used with the provided node XM Cloud proxy application to handle server-side rendering (SSR), data queries, personalization and more. For more details and information on how to run and deploy the Angular starter and proxy to XM Cloud have a look at [SPA starters monorepo](headapps/spa-starters/)
 
 ## Disconnected offline development
 
